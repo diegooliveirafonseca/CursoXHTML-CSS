@@ -1,0 +1,26 @@
+/*seletor universal: quando utilizado, modifica todos os elementos da página*/
+* {
+	color: #006699;
+}
+/*seletor elemento: quando utilizado, modifica somente o conteudo deste elemento*/
+p{
+	color: #0000CC;
+}
+/*seletor class: quando utilizado, modifica todo o conteudo do elemento onde esta classe está definida */
+.destaque {
+	color: #CC0000;
+}
+
+.detalhe {
+	text-decoration: underline;
+}
+/*seletor id: quando utilizado, modifica todo o conteudo do elemento onde este id está definido*/
+#introducao {
+	background-color: #FFCC33
+}
+
+/*seletor atributo: quando utilizado, modifica todo o conteudo do elemento onde o atributo esta definido*/
+em[title=Empresa] {
+	color: #336600;
+	font-size: 30px;
+}
